@@ -15,10 +15,10 @@ initially bank have to contact every customer about the subscription to a term d
 This dataset is about the direct phone call marketing campaigns, which aim to promote
 term deposits among existing customers, by a Portuguese banking institution from May
 2008 to November 2010.
--> Type: Structured tabular data
--> Target Variable: y (term deposit subscription: yes/no)
--> Mixed categorical and numerical features
--> Imbalanced target classes
+- Type: Structured tabular data
+- Target Variable: y (term deposit subscription: yes/no)
+- Mixed categorical and numerical features
+- Imbalanced target classes
 
 # workflow
 - Basic checks
@@ -31,9 +31,10 @@ term deposits among existing customers, by a Portuguese banking institution from
 - probablity threshold tuning
 
 # Techniques used
--> SMOTE - class imbalance
--> One-Hot Encoding - Categorical features
--> Scaling - numerical features
+- SMOTE - class imbalance
+- One-Hot Encoding - Categorical features
+- Scaling - numerical features
+
 -Evaluated models using precision, recall, F1-score, and ROC-AUC
 -Performed threshold tuning to balance business trade-offs
 
