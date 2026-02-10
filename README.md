@@ -38,17 +38,17 @@ term deposits among existing customers, by a Portuguese banking institution from
 -Performed threshold tuning to balance business trade-offs
 
 # Modeling
-Logistic Regression
-Decision Tree
-Random Forest
-Gradient Boosting
-KNN
-Naive Bayes
-XGBoost(selected model)
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- KNN
+- Naive Bayes
+- XGBoost(selected model)
 
 # Metrics used:
-Precision
-Recall
-F1-score
-ROC-AUC
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
 
