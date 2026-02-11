@@ -4,8 +4,6 @@ Machine learning classification project to predict term deposit subscription usi
 # overview
 This project aims to predict whether a customer will subscribe to a term deposit based on marketing campaign data from a Portuguese bank. The task is formulated as a binary classification problem with a focus on handling class imbalance and evaluating models using appropriate metrics.
 
-Marketing campaigns in the banking sector often suffer from low response and high operational cost due to ineffective customer targeting.Banks often spend long time in contacting to find the clients for their product.This project used portugese banking dataset by portuguese banking institute from may 2008 to november 2010.Multiple classification algorithms were evaluated like, Logistic regression,Decision tree,Random Forest,Gradient Boosting and XGBoost and best model is selected to help banks to find high probablity customers,increase efficiency in marketing,reduce unnecessary outreach.
-
 A term deposit is a banking product where customers invest a fixed amount of money for a predetermined period in return for higher interest. In this project, the objective is to predict whether a customer will subscribe to such a product when contacted by the bank.
 
 # problem statement
@@ -19,6 +17,11 @@ term deposits among existing customers, by a Portuguese banking institution from
 - Target Variable: y (term deposit subscription: yes/no)
 - Mixed categorical and numerical features
 - Imbalanced target classes
+- Client demographic details (age, job, marital status, education)
+- Financial information (balance, housing, loan, personal loan, default)
+- Campaign-related information (campaign, pdays, ,previous, poutcome, contact type, number of contacts, duration)
+- social and economic context attributes (emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed)
+
 
 # workflow
 - Basic checks
@@ -52,4 +55,3 @@ term deposits among existing customers, by a Portuguese banking institution from
 - Recall
 - F1-score
 - ROC-AUC
-
